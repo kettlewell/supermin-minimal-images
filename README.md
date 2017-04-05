@@ -13,18 +13,20 @@ ie, if you're building a CentOS 7 image, you need to build it on a CentOS 7 mach
 
 Install supermin:
 
-    `yum install supermin`
+    ``` bash
+    yum install supermin
+    ```
 
 then run mkvm-centos7.sh to have your image generated.
 
 I recommend created a separate directory for creating your images first, such as:
 
 
-    `
+    ``` bash
     git clone https://github.com/kettlewell/supermin-minimal-images.git
     cd supermin-minimal-images
     ./mkvm-centos7.sh
-    `
+    ```
 
 Currently the image will be automatically imported into your local docker
 and the docker container started.
